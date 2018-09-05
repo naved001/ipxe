@@ -1314,6 +1314,8 @@ const struct efx_nic_type hunt_nic_type = {
 };
 
 static struct pci_device_id hunt_nics[] = {
+	PCI_ROM(0x1924, 0x0803, "SFC9020", "Solarflare SFN5122F Adapter", 0),
+	PCI_ROM(0x1924, 0x0903, "SFC9120", "Solarflare SFCidk Adapter", 0),
 	PCI_ROM(0x1924, 0x0a03, "SFC9220", "Solarflare SFN8xxx Adapter", 0),
 	PCI_ROM(0x1924, 0x0b03, "SFC9250", "Solarflare X25xx Adapter", 0),
 };
